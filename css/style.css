@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+body {
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+}
+
+img.tag {
+    width: 135px;
+    height: 35px;
+    margin: 10px 20px;
+}
+
+.nav {
+    line-height: 4;
+    margin-left: 500px;
+}
+
+ul.navigate {
+    display: flex;
+    margin-left: auto;
+}
+
+li.column {
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.important {
+    position: relative;
+    text-align: center;
+}
+
+.word {
+    color: #918;
+    position: absolute;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 32px;
+    top: 17%;
+    left: 35%;
+}
+
+.commit {
+    position: absolute;
+}
+
+span {
+    color: #080;
+}
+
+span.sub_title {
+    color: #420;
+}
+
+img.first_view {
+    width: 570px;
+    margin-left: 530px;
+}
+
+
