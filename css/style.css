@@ -68,20 +68,31 @@ img.first_view {
     margin-left: 530px;
 }
 
-.sub-title {
+.informations {
+    margin-top: 30px;
+}
+
+th.sub-title {
     font-family: 'Sedgwick Ave', cursive;
     color: #918;
     margin-bottom: 10px;
 }
 
-.information {
+td.information {
     font-weight: bold;
     border-bottom: 1px solid #532;
     padding-bottom: 15px;
 }
+
+table.info {
+    margin: 0 auto;
+}
+
 
 td.date_news {
     border-bottom: 1px solid #134;
     padding-bottom: 5px;
     padding-top: 10px;
 }
+
+
