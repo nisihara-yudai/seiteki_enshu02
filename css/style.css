@@ -38,13 +38,16 @@ li.column {
     color: #918;
     position: absolute;
     font-family: 'Sedgwick Ave', cursive;
-    font-size: 32px;
-    top: 17%;
+    font-size: 27px;
+    top: 23%;
     left: 35%;
+    text-align: justify;
 }
 
 .commit {
     position: absolute;
+    font-size: 15px;
+    margin-top: 60px;
 }
 
 span {
@@ -53,6 +56,11 @@ span {
 
 span.sub_title {
     color: #420;
+    bottom: 35%;
+    position: absolute;
+    font-size: 10px;
+    text-align: justify;
+    left: 35%;
 }
 
 img.first_view {
@@ -60,4 +68,20 @@ img.first_view {
     margin-left: 530px;
 }
 
+.sub-title {
+    font-family: 'Sedgwick Ave', cursive;
+    color: #918;
+    margin-bottom: 10px;
+}
 
+.information {
+    font-weight: bold;
+    border-bottom: 1px solid #532;
+    padding-bottom: 15px;
+}
+
+td.date_news {
+    border-bottom: 1px solid #134;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
