@@ -16,7 +16,7 @@ img.tag {
 
 .nav {
     line-height: 4;
-    margin-left: 32%;
+    margin-left: 53%;
 }
 
 ul.navigate {
@@ -32,16 +32,16 @@ li.column {
 .important {
     position: relative;
     text-align: center;
-    width: 100vw;
-    max-width: 100vw;
-    height: auto;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
 }
 
 .word {
     color: #918;
     position: absolute;
     font-family: 'Sedgwick Ave', cursive;
-    font-size: 27px;
+    font-size: 30px;
     top: 23%;
     left: 24%;
     text-align: justify;
@@ -49,8 +49,8 @@ li.column {
 
 .commit {
     position: absolute;
-    font-size: 15px;
-    margin-top: 28%;
+    font-size: 18px;
+    margin-top: 23%;
 }
 
 span {
@@ -61,18 +61,21 @@ span.sub_title {
     color: #420;
     bottom: 33%;
     position: absolute;
-    font-size: 10px;
+    font-size: 12px;
     text-align: justify;
+    top: 79%;
     left: 24%;
 }
 
 img.first_view {
     width: 40vw;
     margin-left: 16%;
+    position: absolute;
+    right: 0;
 }
 
 .informations {
-    margin-top: 3%;
+    margin-top: 31%;
 }
 
 li.sub-title {
@@ -80,7 +83,7 @@ li.sub-title {
     color: #918;
     margin-bottom: 10px;
     list-style: none;
-    margin-left: 498px;
+    margin-left: 25%;
     text-align: left;
 }
 
