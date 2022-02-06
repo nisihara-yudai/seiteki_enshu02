@@ -9,9 +9,9 @@ body {
 }
 
 img.tag {
-    width: 10%;
-    height: 20%;
-    margin: 20px 40px;
+    width: 12%;
+    height: auto;
+    margin: 10px 20px;
 }
 
 .nav {
@@ -68,7 +68,7 @@ span.sub_title {
 
 img.first_view {
     width: 40vw;
-    margin-left: 14%;
+    margin-left: 16%;
 }
 
 .informations {
@@ -81,6 +81,7 @@ li.sub-title {
     margin-bottom: 10px;
     list-style: none;
     margin-left: 498px;
+    text-align: left;
 }
 
 li.information {
