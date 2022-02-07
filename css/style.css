@@ -41,9 +41,9 @@ li.column {
     color: #918;
     position: absolute;
     font-family: 'Sedgwick Ave', cursive;
-    font-size: 30px;
-    top: 23%;
-    left: 24%;
+    font-size: 39px;
+    top: 22%;
+    left: 30%;
     text-align: justify;
 }
 
@@ -57,25 +57,25 @@ span {
     color: #080;
 }
 
-span.sub_title {
+p.sub_title {
     color: #420;
-    bottom: 33%;
+    margin-top: 5%;
     position: absolute;
-    font-size: 12px;
+    font-size: 17px;
     text-align: justify;
-    top: 79%;
-    left: 24%;
+    top: 70%;
+    left: 0%;
 }
 
 img.first_view {
-    width: 40vw;
-    margin-left: 16%;
-    position: absolute;
+    width: 55vw;
+    margin-left: 45%;
     right: 0;
 }
 
 .informations {
-    margin-top: 31%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 li.sub-title {
@@ -83,7 +83,7 @@ li.sub-title {
     color: #918;
     margin-bottom: 10px;
     list-style: none;
-    margin-left: 25%;
+    margin-left: 33%;
     text-align: left;
 }
 
@@ -111,4 +111,98 @@ span.news {
     margin-right: 15px;
 }
 
+.background {
+    background: #f2f2f2;
+    height: 65vh;
+}
+
+.sub-title {
+    font-family: 'Sedgwick Ave', cursive;
+    color: #918;
+    margin-bottom: 10px;
+    list-style: none;
+    padding-top: 22px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.title02 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 24%;
+    margin-bottom: 3%;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 24%;
+}
+
+.explain_row {
+    width: 27%;
+    text-align: justify;
+}
+
+p.explain {
+    margin-bottom: 15%;
+    color: #797979;
+}
+
+img.about_picture {
+    width: 40%;
+}
+
+
+.sub-title2 {
+    font-family: 'Sedgwick Ave', cursive;
+    color: #918;
+    margin-bottom: 10px;
+    list-style: none;
+    padding-top: 22px;
+    margin-left: 24%;
+    margin-top: 10%;
+}
+
+.title03 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 24%;
+    margin-bottom: 3%;
+}
+
+.educations {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.education01 {
+    background-color: #ff0461;
+    text-align: center;
+    padding: 5%;
+}
+
+img.education_1 {
+    width: 40%;
+}
+
+.business {
+    color: #fff;
+    margin: 4%;
+}
+
+p.sample_text {
+    text-align: justify;
+    color: #fff;
+    margin-bottom: 10%;
+    font-size: 13px;
+}
+
+img.education_2 {
+    width: 50%;
+}
 
