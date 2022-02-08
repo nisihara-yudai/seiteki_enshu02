@@ -76,6 +76,8 @@ img.first_view {
 .informations {
     margin-top: 5%;
     margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 li.sub-title {
@@ -83,7 +85,7 @@ li.sub-title {
     color: #918;
     margin-bottom: 10px;
     list-style: none;
-    margin-left: 33%;
+    margin-left: 0;
     text-align: left;
 }
 
@@ -93,11 +95,10 @@ li.information {
     padding-bottom: 15px;
     list-style: none;
     margin: 0 auto;
-    width: 505px;
 }
 
 table.info {
-    margin: 0 auto;
+    width: 100%;
 }
 
 td.date_news {
@@ -191,18 +192,46 @@ img.education_1 {
 }
 
 .business {
-    color: #fff;
-    margin: 4%;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 p.sample_text {
     text-align: justify;
     color: #fff;
-    margin-bottom: 10%;
     font-size: 13px;
+    line-height: 2;
 }
 
 img.education_2 {
-    width: 50%;
+    width: 35%;
 }
+
+.education02 {
+    display: flex;
+    background: #FF82B2;
+    padding: 5%;
+    margin-right: -23%;
+}
+
+.language {
+    margin-left: 5%;
+}
+
+p.business01 {
+    color: #fff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.education03 {
+    display: flex;
+    background: #BC8F8F;
+    padding: 5%;
+    margin-right: -23%;
+}
+
+
 
