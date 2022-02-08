@@ -208,6 +208,7 @@ p.sample_text {
     color: #fff;
     font-size: 13px;
     line-height: 2;
+    overflow-wrap: break-word;
 }
 
 img.education_2 {
@@ -218,6 +219,7 @@ img.education_2 {
     display: flex;
     background: #FF82B2;
     padding: 5%;
+    width: 125%;
     margin-right: -23%;
 }
 
@@ -235,7 +237,31 @@ p.business01 {
     display: flex;
     background: #BC8F8F;
     padding: 5%;
+    width: 125%;
     margin-right: -23%;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog {
+    position: relative;
+    border: 1px solid #fff;
+    height: 24vh;
+    width: 22%;
+}
+
+.blog_title {
+    position: absolute;
+    color: #fff;
+    background: #C71585;
+}
+
+img.pc_cafe {
+    width: 70%;
+    position: absolute;
 }
 
 
