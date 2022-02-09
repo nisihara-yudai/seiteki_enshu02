@@ -119,7 +119,7 @@ span.news {
 
 .background {
     background: #f2f2f2;
-    height: 80vh;
+    height: 75vh;
 }
 
 .sub-title {
@@ -241,28 +241,124 @@ p.business01 {
     margin-right: -23%;
 }
 
+.background01 {
+    background: #f2f2f2;
+    height: 60vh;
+}
+
 .blogs {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .blog {
     position: relative;
     border: 1px solid #fff;
-    height: 24vh;
-    width: 22%;
+    height: 30vh;
+    width: 14%;
+    background: #fff;
+    border-radius: 5%;
 }
 
 .blog_title {
     position: absolute;
     color: #fff;
     background: #C71585;
+    font-size: 5%;
+    padding: 3%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-top-left-radius: 21%;
 }
 
 img.pc_cafe {
-    width: 70%;
+    width: 100%;
     position: absolute;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 }
 
+.blog_paragraph {
+    margin-top: 70%;
+    font-size: 12px;
+    padding: 4%;
+}
 
+.sub-footer {
+    display: flex;
+    margin-top: 13%;
+    justify-content: space-between;
+    color: #778899;
+}
+
+.button {
+    border: 2px solid #C71585;
+    width: 10%;
+    margin: 3% auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #C71585;
+}
+
+.company_detail {
+    margin-bottom: 6%;
+}
+
+li.sub-title {
+    font-family: 'Sedgwick Ave', cursive;
+    color: #918;
+    margin-bottom: 10px;
+    list-style: none;
+    padding-top: 22px;
+    /* margin-left: 25%; */
+}
+
+li.title02 {
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+    /* text-align: center; */
+    /* margin-left: 24%; */
+    margin-bottom: 3%;
+}
+
+.sub-title3 {
+    font-family: 'Sedgwick Ave', cursive;
+    color: #918;
+    margin-bottom: 10px;
+    list-style: none;
+    padding-top: 22px;
+    margin-left: 24%;
+    margin-top: 2%;
+}
+
+.title04 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 24%;
+    margin-bottom: 3%;
+}
+
+table.company_detail{
+    margin-left: 24%;
+    table-layout: auto;
+    width: 40%;
+}
+
+th.detail {
+    background: #f2f2f2;
+    border: 1px solid #708090;
+    padding: 10px;
+}
+
+td.detail_name {
+    color: #778899;
+    border: 1px solid #708090;
+    padding: 10px;
+}
 
