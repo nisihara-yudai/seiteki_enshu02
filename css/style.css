@@ -9,8 +9,14 @@ body {
     margin: 0 auto;
 }
 
+section{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 .navigation {
     display: flex;
+    width: 100%;
 }
 
 img.tag {
@@ -32,24 +38,22 @@ ul.navigate {
 
 li.column {
     justify-content: space-between;
-    margin-left: 5%;
+    margin-left: 15px;
 }
 
 .important {
     position: relative;
     text-align: center;
     width: 100%;
-    max-width: 100%;
-    height: 100%;
 }
 
 .word {
     color: #918;
     position: absolute;
     font-family: 'Sedgwick Ave', cursive;
-    font-size: 30px;
-    top: 22%;
-    left: 30%;
+    font-size: 28px;
+    top: 24%;
+    left: 28%;
     text-align: justify;
 }
 
@@ -73,10 +77,9 @@ p.sub_title {
     left: 0%;
 }
 
-img.first_view {
-    width: 55vw;
-    margin-left: 45%;
-    right: 0;
+.important img.first_view {
+    width: 55%;
+    margin-left: 430px;
 }
 
 .informations {
@@ -125,7 +128,7 @@ span.news {
 
 .background {
     background: #f2f2f2;
-    height: 75vh;
+    height: 50vh;
 }
 
 .sub-title {
@@ -148,28 +151,29 @@ span.news {
 
 .about {
     display: flex;
-    justify-content: space-around;
-    text-align: center;
-    line-height: 230px;
+    justify-content: space-evenly;
     /* margin-left: 24%; */
 }
 
-.explain_row {
+.about .explain_row {
     width: 270px;
     text-align: justify;
     line-height: 18px;
-    vertical-align: top;
+    /* vertical-align: middle; */
+    display: inline-block;
+    margin-top: 21px;
 }
 
-p.explain {
+.about p.explain {
     margin-bottom: 15%;
     color: #797979;
+    line-height: 1;
 }
 
-img.about_picture {
+.about img.about_picture {
     width: 25%;
     height: 230px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 
@@ -193,7 +197,7 @@ img.about_picture {
 
 .educations {
     display: flex;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -266,8 +270,8 @@ p.business01 {
 .blog {
     position: relative;
     border: 1px solid #fff;
-    height: 35vh;
-    width: 195px;
+    height: 28vh;
+    width: 200px;
     background: #fff;
     border-radius: 5%;
 }
@@ -387,13 +391,17 @@ td.detail_name {
 p.introduce {
     position: absolute;
     top: 40%;
-    left: 40%;
+    left: 35%;
     color: #fff;
     font-size: 22px;
 }
 
 .interview {
     position: relative;
+}
+
+img.img {
+    width: 100%;
 }
 
 .access01 {
@@ -433,8 +441,8 @@ input.btn{
     position: absolute;
     content: "✉️";
     color: #fff;
-    bottom: 65%;
-    left: 44%;
+    bottom: 58%;
+    left: 41%;
     width: 30px;
 }
 
