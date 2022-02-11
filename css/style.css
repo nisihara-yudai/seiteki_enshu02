@@ -1,8 +1,12 @@
 @charset "utf-8";
 
+* {
+    outline: 1px solid red !important;
+}
+
 body {
     width: 100vw;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 .navigation {
@@ -17,7 +21,8 @@ img.tag {
 
 .nav {
     line-height: 4;
-    margin-left: 53%;
+    margin-left: 45%;
+    font-size: 12px;
 }
 
 ul.navigate {
@@ -42,7 +47,7 @@ li.column {
     color: #918;
     position: absolute;
     font-family: 'Sedgwick Ave', cursive;
-    font-size: 39px;
+    font-size: 30px;
     top: 22%;
     left: 30%;
     text-align: justify;
@@ -79,7 +84,7 @@ img.first_view {
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    width: 518px;
 }
 
 li.sub-title {
@@ -145,12 +150,15 @@ span.news {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    line-height: 230px;
     /* margin-left: 24%; */
 }
 
 .explain_row {
-    width: 27%;
+    width: 270px;
     text-align: justify;
+    line-height: 18px;
+    vertical-align: top;
 }
 
 p.explain {
@@ -159,7 +167,9 @@ p.explain {
 }
 
 img.about_picture {
-    width: 40%;
+    width: 25%;
+    height: 230px;
+    vertical-align: middle;
 }
 
 
@@ -244,7 +254,7 @@ p.business01 {
 
 .background01 {
     background: #f2f2f2;
-    height: 60vh;
+    height: 70vh;
     margin-top: 10%;
 }
 
@@ -256,8 +266,8 @@ p.business01 {
 .blog {
     position: relative;
     border: 1px solid #fff;
-    height: 30vh;
-    width: 14%;
+    height: 35vh;
+    width: 195px;
     background: #fff;
     border-radius: 5%;
 }
