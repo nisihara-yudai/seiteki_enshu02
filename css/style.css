@@ -5,8 +5,8 @@
 }
 
 html,body {
-    width: 1000px;
-    margin: 0 auto;
+    /* width: 1000px; */
+    margin: 0;
     padding: 0;
 }
 
@@ -28,7 +28,7 @@ img.tag {
 
 .nav {
     line-height: 4;
-    margin-left: 45%;
+    margin-left: 50%;
     font-size: 12px;
 }
 
@@ -54,7 +54,7 @@ li.column {
     font-family: 'Sedgwick Ave', cursive;
     font-size: 28px;
     top: 24%;
-    left: 28%;
+    left: 34%;
     text-align: justify;
 }
 
@@ -80,7 +80,9 @@ p.sub_title {
 
 .important img.first_view {
     width: 55%;
-    margin-left: 450px;
+    margin-left: auto;
+    display: block;
+    margin-right: 0;
 }
 
 .informations {
@@ -389,6 +391,10 @@ td.detail_name {
     position: relative;
 }
 
+.picture img.img {
+    width: 100%;
+}
+
 p.introduce {
     position: absolute;
     top: 40%;
@@ -401,7 +407,7 @@ p.introduce {
     position: relative;
 }
 
-img.img {
+secton img.img {
     width: 100%;
 }
 
