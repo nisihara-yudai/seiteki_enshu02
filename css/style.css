@@ -4,14 +4,15 @@
     outline: 1px solid red !important;
 }
 
-body {
-    width: 100vw;
+html,body {
+    width: 960px;
     margin: 0 auto;
+    padding: 0;
 }
 
 section{
-    max-width: 960px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
 }
 
 .navigation {
