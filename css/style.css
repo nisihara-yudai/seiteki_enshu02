@@ -44,32 +44,28 @@ li.column {
 }
 
 .important {
-    position: relative;
+    display: flex;
     text-align: center;
-    /* align-items: center; */
-    /* width: auto; */
-    /* height: auto; */
+    align-items: center;
+    justify-content: center;
 }
 
 .word {
     color: #918;
-    position: absolute;
     font-family: 'Sedgwick Ave', cursive;
     font-size: 28px;
-    left: 34%;
+    margin-left: 33%;
     bottom: 0;
-    right: 0;
-    top: 10%;
-    margin: auto;
-    width: auto;
-    height: auto;
+    right: auto;
+    margin-top: 5%;
     text-align: justify;
+    z-index: 2;
 }
 
 .commit {
     position: absolute;
     font-size: 18px;
-    margin-top: 12%;
+    margin-top: 10%;
 }
 
 span {
@@ -88,11 +84,12 @@ p.sub_title {
 
 .important img.first_view {
     width: 55%;
-    /* position: relative; */
+    height: auto;
     margin-left: auto;
     display: block;
     margin-right: 0;
     right: 0;
+    z-index: 1;
 }
 
 .informations {
