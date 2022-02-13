@@ -21,13 +21,12 @@ section{
 }
 
 img.tag {
-    width: 12%;
-    height: auto;
-    margin: 10px 20px;
+    width: 145px;
+    margin: 10px 30px;
 }
 
 .nav {
-    line-height: 4;
+    line-height: 6;
     margin-left: auto;
     padding-right: 30px;
     font-size: 12px;
@@ -43,19 +42,23 @@ li.column {
     margin-right: 15px;
 }
 
-.important {
+
+.firstview_wrap {
     position: relative;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    height: 40vh;
+}
+
+.important {
+    position: absolute;
+    right: 500px;
+    z-index: 100;
+    top: 100px;
 }
 
 .word {
     color: #918;
     font-family: 'Sedgwick Ave', cursive;
-    font-size: 28px;
-    /* position: absolute; */
+    font-size: 30px;
     top: 15%;
     margin-left: 0%;
     bottom: 0;
@@ -66,9 +69,23 @@ li.column {
     width: auto;
 }
 
+.word2 {
+    color: #918;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 30px;
+    top: 15%;
+    margin-left: 0%;
+    bottom: 0;
+    right: 0;
+    left: auto;
+    margin-top: 2%;
+    text-align: justify;
+    width: auto;
+}
+
 .commit {
-    font-size: 18px;
-    margin-top: 5%;
+    font-size: 20px;
+    margin-top: 7%;
     color: #918;
     text-align: left;
     width: auto;
@@ -81,7 +98,7 @@ span {
 p.sub_title {
     color: #420;
     margin-top: 1%;
-    font-size: 17px;
+    font-size: 15px;
     text-align: justify;
     top: 41%;
     left: 0%;
@@ -90,20 +107,16 @@ p.sub_title {
 p.sub_title2 {
     color: #420;
     margin-top: 1%;
-    font-size: 17px;
+    font-size: 15px;
     text-align: justify;
     top: 41%;
     left: 0%;
 }
 
 img.first_view {
-    width: 50%;
-    height: auto;
+    width: 600px;
     position: absolute;
-    display: block;
-    margin-right: 0;
     right: 0;
-    top: 61px;
 }
 
 .informations {
@@ -366,7 +379,7 @@ li.sub-title {
     color: #918;
     margin-bottom: 10px;
     list-style: none;
-    padding-top: 22px;
+    padding-top: 240px;
     /* margin-left: 25%; */
 }
 
