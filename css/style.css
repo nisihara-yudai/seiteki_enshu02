@@ -44,28 +44,34 @@ li.column {
 }
 
 .important {
-    display: flex;
+    position: relative;
     text-align: center;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .word {
     color: #918;
     font-family: 'Sedgwick Ave', cursive;
     font-size: 28px;
+    /* position: absolute; */
+    top: 15%;
     margin-left: 0%;
     bottom: 0;
-    right: auto;
-    margin-top: 5%;
+    right: 0;
+    left: auto;
+    margin-top: 4%;
     text-align: justify;
-    width: 97%;
+    width: auto;
 }
 
 .commit {
     font-size: 18px;
-    margin-top: 10%;
+    margin-top: 5%;
     color: #918;
+    text-align: left;
+    width: auto;
 }
 
 span {
@@ -74,31 +80,34 @@ span {
 
 p.sub_title {
     color: #420;
-    margin-top: 5%;
-    position: absolute;
+    margin-top: 1%;
     font-size: 17px;
     text-align: justify;
     top: 41%;
     left: 0%;
 }
 
-.word2 {
-    padding-left: 40%;
-    width: 94%;
+p.sub_title2 {
+    color: #420;
+    margin-top: 1%;
+    font-size: 17px;
+    text-align: justify;
+    top: 41%;
+    left: 0%;
 }
 
-.important img.first_view {
-    width: 100%;
+img.first_view {
+    width: 50%;
     height: auto;
-    margin-left: auto;
+    position: absolute;
     display: block;
     margin-right: 0;
     right: 0;
-    flex: 1;
+    top: 61px;
 }
 
 .informations {
-    margin-top: 5%;
+    margin-top: 15%;
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
