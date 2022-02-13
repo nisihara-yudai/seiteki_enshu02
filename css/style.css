@@ -28,24 +28,27 @@ img.tag {
 
 .nav {
     line-height: 4;
-    margin-left: 50%;
+    margin-left: auto;
+    padding-right: 30px;
     font-size: 12px;
 }
 
 ul.navigate {
     display: flex;
-    margin-left: auto;
+    margin-left: 15px;
 }
 
 li.column {
-    justify-content: space-between;
-    margin-left: 15px;
+    justify-content: space-evenly;
+    margin-right: 15px;
 }
 
 .important {
     position: relative;
     text-align: center;
-    width: 100%;
+    /* align-items: center; */
+    /* width: auto; */
+    /* height: auto; */
 }
 
 .word {
@@ -53,15 +56,20 @@ li.column {
     position: absolute;
     font-family: 'Sedgwick Ave', cursive;
     font-size: 28px;
-    top: 24%;
     left: 34%;
+    bottom: 0;
+    right: 0;
+    top: 10%;
+    margin: auto;
+    width: auto;
+    height: auto;
     text-align: justify;
 }
 
 .commit {
     position: absolute;
     font-size: 18px;
-    margin-top: 23%;
+    margin-top: 12%;
 }
 
 span {
@@ -80,9 +88,11 @@ p.sub_title {
 
 .important img.first_view {
     width: 55%;
+    /* position: relative; */
     margin-left: auto;
     display: block;
     margin-right: 0;
+    right: 0;
 }
 
 .informations {
@@ -131,7 +141,7 @@ span.news {
 
 .background {
     background: #f2f2f2;
-    height: 50vh;
+    padding-bottom: 5%;
 }
 
 .sub-title {
@@ -163,6 +173,7 @@ span.news {
     text-align: justify;
     line-height: 18px;
     /* vertical-align: middle; */
+    margin-left: 0;
     display: inline-block;
     margin-top: 21px;
 }
@@ -174,9 +185,8 @@ span.news {
 }
 
 .about img.about_picture {
-    width: 25%;
+    width: auto;
     height: 230px;
-    /* vertical-align: middle; */
 }
 
 
@@ -207,18 +217,19 @@ span.news {
 .education01 {
     background-color: #ff0461;
     text-align: center;
+    width: 46%;
     padding: 5%;
 }
 
 img.education_1 {
-    width: 40%;
+    width: 50%;
 }
 
 .business {
     color: #FFF;
     font-weight: bold;
-    margin-bottom: 3%;
-    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 p.sample_text {
@@ -226,7 +237,15 @@ p.sample_text {
     color: #fff;
     font-size: 13px;
     line-height: 2;
-    overflow-wrap: break-word;
+    /* overflow-wrap: break-word; */
+}
+
+p.sample_text01 {
+    text-align: justify;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 14px;
+    display: inline-block;
 }
 
 img.education_2 {
@@ -237,7 +256,7 @@ img.education_2 {
     display: flex;
     background: #FF82B2;
     padding: 5%;
-    width: 125%;
+    width: 100%;
     margin-right: -23%;
 }
 
@@ -255,14 +274,14 @@ p.business01 {
     display: flex;
     background: #BC8F8F;
     padding: 5%;
-    width: 125%;
+    width: 100%;
     margin-right: -23%;
 }
 
 .background01 {
     background: #f2f2f2;
-    height: 55vh;
     margin-top: 10%;
+    padding-bottom: 2%;
 }
 
 .blogs {
@@ -273,7 +292,7 @@ p.business01 {
 .blog {
     position: relative;
     border: 1px solid #fff;
-    height: 28vh;
+    height: 61px;
     width: 200px;
     background: #fff;
     border-radius: 5%;
@@ -313,8 +332,10 @@ img.pc_cafe {
 
 .button {
     border: 2px solid #C71585;
-    width: 10%;
-    margin: 3% auto;
+    width: 140px;
+    margin-top: 195px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -385,10 +406,12 @@ td.detail_name {
 .picture {
     display: flex;
     margin-bottom: 5%;
+    width: 100%;
 }
 
 .recruit {
     position: relative;
+    width: 50%;
 }
 
 .picture img.img {
@@ -405,6 +428,7 @@ p.introduce {
 
 .interview {
     position: relative;
+    width: 50%;
 }
 
 secton img.img {
@@ -448,9 +472,9 @@ input.btn{
     position: absolute;
     content: "✉️";
     color: #fff;
-    bottom: 58%;
-    left: 41%;
-    width: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 0;
 }
 
 footer.background03 {
