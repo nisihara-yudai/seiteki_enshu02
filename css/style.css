@@ -54,12 +54,12 @@ li.column {
     color: #918;
     font-family: 'Sedgwick Ave', cursive;
     font-size: 28px;
-    margin-left: 33%;
+    margin-left: 0%;
     bottom: 0;
     right: auto;
     margin-top: 5%;
     text-align: justify;
-    z-index: 2;
+    width: 97%;
 }
 
 .commit {
@@ -82,14 +82,19 @@ p.sub_title {
     left: 0%;
 }
 
+.word2 {
+    padding-left: 55%;
+    width: 150%;
+}
+
 .important img.first_view {
-    width: 55%;
+    width: 100%;
     height: auto;
     margin-left: auto;
     display: block;
     margin-right: 0;
     right: 0;
-    z-index: 1;
+    flex: 1;
 }
 
 .informations {
