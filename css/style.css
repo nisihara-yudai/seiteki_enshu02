@@ -63,9 +63,9 @@ li.column {
 }
 
 .commit {
-    position: absolute;
     font-size: 18px;
     margin-top: 10%;
+    color: #918;
 }
 
 span {
@@ -78,13 +78,13 @@ p.sub_title {
     position: absolute;
     font-size: 17px;
     text-align: justify;
-    top: 70%;
+    top: 41%;
     left: 0%;
 }
 
 .word2 {
-    padding-left: 55%;
-    width: 150%;
+    padding-left: 40%;
+    width: 94%;
 }
 
 .important img.first_view {
@@ -433,7 +433,7 @@ p.introduce {
     width: 50%;
 }
 
-secton img.img {
+section img.img {
     width: 100%;
 }
 
