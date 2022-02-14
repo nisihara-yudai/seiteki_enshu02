@@ -1,8 +1,8 @@
 @charset "utf-8";
 
-* {
+/* * {
     outline: 1px solid red !important;
-}
+} */
 
 html,body {
     /* width: 1000px; */
@@ -45,7 +45,7 @@ li.column {
 
 .firstview_wrap {
     position: relative;
-    height: 40vh;
+    height: 30%;
 }
 
 .important {
@@ -120,8 +120,8 @@ img.first_view {
 }
 
 .informations {
-    margin-top: 15%;
-    margin-bottom: 5%;
+    margin-top: 230px;
+    margin-bottom: 90px;
     margin-left: auto;
     margin-right: auto;
     width: 518px;
@@ -234,14 +234,14 @@ span.news {
 
 .educations {
     display: flex;
-    width: 60%;
+    width: 840px;
     margin: 0 auto;
 }
 
 .education01 {
     background-color: #ff0461;
     text-align: center;
-    width: 46%;
+    width: 510px;
     padding: 5%;
 }
 
@@ -280,7 +280,7 @@ img.education_2 {
     display: flex;
     background: #FF82B2;
     padding: 5%;
-    width: 100%;
+    width: 440px;
     margin-right: -23%;
 }
 
@@ -298,7 +298,7 @@ p.business01 {
     display: flex;
     background: #BC8F8F;
     padding: 5%;
-    width: 100%;
+    width: 440px;
     margin-right: -23%;
 }
 
@@ -342,9 +342,10 @@ img.pc_cafe {
 }
 
 .blog_paragraph {
-    margin-top: 70%;
+    margin-top: 67%;
     font-size: 12px;
     padding: 4%;
+    background: #fff;
 }
 
 .sub-footer {
